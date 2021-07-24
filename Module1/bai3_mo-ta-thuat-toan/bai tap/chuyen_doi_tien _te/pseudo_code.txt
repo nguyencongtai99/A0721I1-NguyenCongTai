@@ -1,0 +1,6 @@
+begin 
+	input $ = 1, vnd = 0
+	sprintf ( sotiendoi = $1 * 23000 vnd )
+	output sprintf
+end
+ 

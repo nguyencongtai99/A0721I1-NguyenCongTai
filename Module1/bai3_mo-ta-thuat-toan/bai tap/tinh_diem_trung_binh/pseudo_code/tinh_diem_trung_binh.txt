@@ -1,0 +1,5 @@
+begin
+	input  math score, physics score, chemistry score
+	average = ( Math + Physics + Chemistry )/3
+	display average
+end
