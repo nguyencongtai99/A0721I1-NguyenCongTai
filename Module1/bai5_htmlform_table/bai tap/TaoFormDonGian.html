@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    label{
+        background-color: orangered;
+    }
+    .borderForm{
+        margin-top: auto;
+        width: 50%;
+        border: 20px solid aqua;
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        background-color: orangered;
+        border: white;
+        text-align: center;
+
+    }
+</style>
+<body>
+<div class="borderForm">
+    <form>
+        <div class="title">SỞ THÍCH CỦA BẠN</div>
+        <table>
+            <tr>
+                <td span style="color: blue">Họ và tên </td>
+                <td>
+                    <input type="text"name="Yourname"/>
+                </td>
+            </tr>
+            <tr>
+                <td span style="color: blue">Email </td>
+                <td>
+                    <input type="text"name="Email"/>
+                </td>
+            </tr>
+            <tr>
+                <td span style="color: blue">sở thích </td>
+                <td>
+                    <input type="checkbox"name="hodby"/><span style="color: red">Thể thao</span>
+                    <input type="checkbox"name="hodby"/><span style="color: red">Âm nhạc</span>
+                    <input type="checkbox"name="hodby"/><span style="color: red">Đọc sách</span>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox"name="hodby"/><span style="color: red">Lướt Web</span>
+                    <input type="checkbox"name="hodby"/><span style="color: red">Chơi Game</span>
+                    <input type="checkbox"name="hodby"/><span style="color: red">Điện ảnh</span>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox"name="hodby"/><span style="color: red">Du Lịch</span>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" name="submit Form"value="Gửi thông tin"/>
+                    <input type="reset" name="reset Form"value="Nhập lại"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</div>
+
+</body>
+</html>

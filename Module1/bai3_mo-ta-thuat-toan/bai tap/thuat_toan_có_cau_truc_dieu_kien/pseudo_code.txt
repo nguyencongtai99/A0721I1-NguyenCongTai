@@ -1,11 +1,8 @@
 begin 
-	Input diem = 100
-	if ( diem => 75 ) then ( xep loai A )
-	else	
+	Input diem
+	if ( diem => 75 ) then ( xep loai A )	
 	if ( diem <=60 < 75 ) then ( xep loai B)
-	else 
 	if ( diem <= 45 < 60 ) then ( xep loai C )
-	else
 	if ( diem <= 35 < 45 ) then ( xep loại D ) and if ( diem < 35 ) then ( xep loai E )
 	end if
 end

@@ -1,0 +1,1 @@
+alert('minh duoc tao ra trong file js');

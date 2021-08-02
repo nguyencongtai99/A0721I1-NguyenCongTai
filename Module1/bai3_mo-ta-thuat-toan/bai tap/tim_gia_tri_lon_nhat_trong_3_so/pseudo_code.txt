@@ -1,11 +1,13 @@
 begin
-	input  a, b, c
-	max = a
-	if ( a < b ) then ( max = b)
-	else	
-	if ( a < c ) then ( max = c)
-	display ( so lon nhat trong 3 so la max)
-	end if
+        input  a, b, c
+        max = a
+        if ( a < b and c<b ) then
+               ( max = b)
+        else        
+               if ( a < c ) then 
+                     ( max = c)
+                endif
+        end if
+        display ( so lon nhat trong 3 so la max)
 end
-
 			
