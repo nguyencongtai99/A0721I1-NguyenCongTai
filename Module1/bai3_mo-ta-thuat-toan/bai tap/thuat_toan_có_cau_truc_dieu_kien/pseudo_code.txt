@@ -6,3 +6,7 @@ begin
 	if ( diem <= 35 < 45 ) then ( xep loại D ) and if ( diem < 35 ) then ( xep loai E )
 	end if
 end
+
+
+
+

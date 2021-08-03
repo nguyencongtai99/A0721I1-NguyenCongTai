@@ -21,33 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0f2850a1-436a-4f1c-a755-7eaea2219f48" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/SuDungTheHtmlCoBan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_htmlform_table/bai tap/TaoBangDonGian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_htmlform_table/bai tap/TaoFormDonGian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai6_Tong_quan_ve_javascript/thuc hanh/HienThiDauRa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai6_Tong_quan_ve_javascript/thuc hanh/HienThiDauRa3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai6_Tong_quan_ve_javascript/thuc hanh/HienThiDauRa4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai6_Tong_quan_ve_javascript/thuc hanh/HienthiDauRa2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai6_Tong_quan_ve_javascript/thuc hanh/NhungFileJsVaoHtml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai6_Tong_quan_ve_javascript/thuc hanh/NhungJava.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai6_Tong_quan_ve_javascript/thuc hanh/my_js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Module1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai1_kanban/.idea/bai1_kanban.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai1_kanban/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai1_kanban/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai1_kanban/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai1_kanban/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_htmlform_table/bai tap/BanCoCaRo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_htmlform_table/bai tap/BangLichThang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai3_mo-ta-thuat-toan/bai tap/thuat_toan_có_cau_truc_dieu_kien/pseudo_code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bai3_mo-ta-thuat-toan/bai tap/thuat_toan_có_cau_truc_dieu_kien/pseudo_code.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai3_mo-ta-thuat-toan/bai tap/tim_gia_tri_lon_nhat_trong_3_so/pseudo_code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bai3_mo-ta-thuat-toan/bai tap/tim_gia_tri_lon_nhat_trong_3_so/pseudo_code.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/bai tap/TaoDanhSach.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai4_git_and_ html/bai tap/TaoDanhSach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/bai tap/TaoTrangCvCaNhan.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai4_git_and_ html/bai tap/TaoTrangCvCaNhan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai5_htmlform_table/bai tap/TaoBangCoBan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai5_htmlform_table/bai tap/TaoBangCoBan2.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai5_htmlform_table/bai tap/TaoBangDongian2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai5_htmlform_table/bai tap/TaoFormCoBan.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,6 +81,8 @@
       <workItem from="1627826012478" duration="2641000" />
       <workItem from="1627899592764" duration="62000" />
       <workItem from="1627901484904" duration="10113000" />
+      <workItem from="1627915181424" duration="3138000" />
+      <workItem from="1627971105180" duration="3390000" />
     </task>
     <servers />
   </component>
