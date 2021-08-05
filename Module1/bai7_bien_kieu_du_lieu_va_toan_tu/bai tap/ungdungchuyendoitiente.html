@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th > From Currency</th>
+            <th > To Currency</th>
+        </tr>
+        <tr>
+            <td><input type="text"id="input"> </td>
+            <td>
+                <select id="input1">
+                        <option value="VNĐ">VIET NAM</option>
+                        <option value="USD">USD</option>
+                    </select>
+            </td>
+            <td>
+                <select id="input2">
+                    <option value ="USD">USD</option>
+                    <option value="VNĐ">VIET NAM</option>
+                </select>
+            </td>
+            <td><button type="button"onclick="convert()">convert</button> </td>
+        <tr><td align="left"><p id="rs">result :</p></td> </tr>
+        </tr>
+    </table>
+</form>
+<script>
+    function convert() {
+        let input = document.getElementById("input").value;
+        let input1 = document.getElementById("input1").value;
+        let input2 = document.getElementById("input2").value;
+
+        let result;
+        if(input1 =="VNĐ"&& input2 =="USD"){
+            result = input/22955;
+            document.getElementById('rs').innerHTML=result;
+        }else if(input1 =="USD"&& input2 =="VNĐ"){
+            alert("result:"+input*22955+"VNĐ");
+        }else if(input1==input2){
+            alert("Error");
+        }
+    }
+
+
+
+
+</script>
+
+</body>
+</html>
