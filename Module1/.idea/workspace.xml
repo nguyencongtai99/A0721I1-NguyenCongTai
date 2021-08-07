@@ -21,19 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0f2850a1-436a-4f1c-a755-7eaea2219f48" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/SuDungTheHtmlCoBan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/bai1tinhdiemtrungbinh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/bai1tinhtongdiem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/baitap3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/ungdungchuyendoitiente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/thuc hanh/baitap1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/thuc hanh/baitap2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/thuc hanh/baitap3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/thuc hanh/js_js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/thuc hanh/sudungtoantu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/ungdungmaytinh.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/bai1tinhdiemtrungbinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/tinhdiemtrungbinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/bai1tinhtongdiem.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/tinhtongdiem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/chuyendoinhietdo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/chuvihinhtron.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/baitap3.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/dientichhinhtron.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/ungdungchuyendoitiente.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/ungdungchuyendoitiente.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +99,13 @@
       <workItem from="1628130172279" duration="4366000" />
       <workItem from="1628135208773" duration="9374000" />
       <workItem from="1628160684670" duration="5981000" />
-      <workItem from="1628174475673" duration="1360000" />
+      <workItem from="1628174475673" duration="1729000" />
+      <workItem from="1628176248130" duration="377000" />
+      <workItem from="1628177163480" duration="1058000" />
+      <workItem from="1628247049150" duration="8283000" />
+      <workItem from="1628263651982" duration="3384000" />
+      <workItem from="1628267398887" duration="6488000" />
+      <workItem from="1628302494938" duration="3714000" />
     </task>
     <servers />
   </component>

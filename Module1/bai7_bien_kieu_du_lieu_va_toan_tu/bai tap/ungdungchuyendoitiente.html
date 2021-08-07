@@ -37,15 +37,16 @@
         let input1 = document.getElementById("input1").value;
         let input2 = document.getElementById("input2").value;
 
-        let result;
-        if(input1 =="VNĐ"&& input2 =="USD"){
-            result = input/22955;
-            document.getElementById('rs').innerHTML=result;
-        }else if(input1 =="USD"&& input2 =="VNĐ"){
-            alert("result:"+input*22955+"VNĐ");
-        }else if(input1==input2){
-            alert("Error");
-        }
+       let result;
+       if(input1 == "VNĐ" && input2 == "USD"){
+           result = input/23000;
+           document.getElementById('rs').innerHTML = result;
+        }else if(input1 == "USD" && input2 == "VNĐ"){
+           alert("result = "+ input * 23000 + "VND");
+       }else if(input1 == input2){
+           alert('Error');
+       }
+
     }
 
 
