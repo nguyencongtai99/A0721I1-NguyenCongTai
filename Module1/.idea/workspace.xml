@@ -21,14 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0f2850a1-436a-4f1c-a755-7eaea2219f48" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/SuDungTheHtmlCoBan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/ungdungmaytinh.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/bai1tinhdiemtrungbinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/tinhdiemtrungbinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/bai1tinhtongdiem.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/tinhtongdiem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/chuyendoinhietdo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/chuvihinhtron.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/baitap3.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/dientichhinhtron.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5_htmlform_table/bai tap/TaoBangDongian2.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai5_htmlform_table/bai tap/TaoBangDongian2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5_htmlform_table/bai tap/TaoFormDangKyNguoiDung.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai5_htmlform_table/bai tap/TaoFormDangKyNguoiDung.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/ungdungchuyendoitiente.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai7_bien_kieu_du_lieu_va_toan_tu/bai tap/ungdungchuyendoitiente.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
@@ -106,6 +102,8 @@
       <workItem from="1628263651982" duration="3384000" />
       <workItem from="1628267398887" duration="6488000" />
       <workItem from="1628302494938" duration="3714000" />
+      <workItem from="1628330000221" duration="686000" />
+      <workItem from="1628332813240" duration="845000" />
     </task>
     <servers />
   </component>
