@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+   let year = prompt('Enter a year');
+   let isLeapYear =  false;
+    let isDivisibLeby4 = year % 4 ==0;
+    if(isDivisibLeby4){
+        let isDivisibLeBy100 = year % 100 ==0;
+        if(isDivisibLeBy100) {
+            let isDivisibLeBy400 = year % 400 ==0;
+            if(isDivisibLeBy400) {
+                isleapYear = true;
+            }
+        }else {
+            isLeapYear = true;
+        }
+    }
+    if (isLeapYear) {
+        alert(year + "is a leap year");
+    }else {
+        alert(year + "is not a leap year");
+    }
+</script>
+
 </body>
 </html>

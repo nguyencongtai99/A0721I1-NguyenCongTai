@@ -17,7 +17,7 @@
             <td>
         <button type="button" onclick="addition()">addition(+)</button>
         <button type="button" onclick="subtraction()">subtraction(-)</button>
-        <button type="button" onclick="multiplication()tiplication()">multiplication(x)</button>
+        <button type="button" onclick="multiplication()">multiplication(x)</button>
         <button type="button" onclick="division()">division(/)</button>
             </td>
             <tr>
@@ -46,13 +46,13 @@
         document.getElementById('rs').innerHTML=result;
         }
         function multiplication() {
-            let a = document.getElementById('txt1').value;
+            let a =document.getElementById('txt1').value;
             let b = document.getElementById('txt2').value;
-             a = parseInt(a);
-             b = parseInt(b);
             let result;
-            result = a * b;
-             document.getElementById('rs').innerHTML= result;
+            a = parseInt(a);
+            b = parseInt(b);
+            result = a*b;
+            document.getElementById('rs').innerHTML = result;
         }
         function division() {
             let a = document.getElementById('txt1').value;
@@ -63,7 +63,7 @@
 
             let result;
             result = a/b;
-            document.getElementById('rs').innerHTML=result;
+            document.getElementById('rs').innerHTML= result;
         }
 
 

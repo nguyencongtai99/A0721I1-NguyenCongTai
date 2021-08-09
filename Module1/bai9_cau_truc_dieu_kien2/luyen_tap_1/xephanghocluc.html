@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt('nhấp điểm kiểm tra'));
+    let b = parseInt(prompt('nhập điểm giữa kỹ'));
+    let c = parseInt(prompt('nhập điểm cuối kỳ'));
+    let kq = (a + b + c)/3;
+    if(kq >= 9.0){
+        alert(  'Xếp Loại A');
+    }else if ( kq >=7.5) {
+        alert('Xếp Loại B');
+    }else if ( kq >=5.0 ){
+        alert( 'Xếp Loại C');
+    }else{
+        alert( 'Xếp Loại D');
+    }
+</script>
+</body>
+</html>
