@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--phương trình có dạng ax + b = 0-->
+<!--x = -b/a-->
+<script>
+    let a =parseInt(prompt("Nhập giá trị a"));
+    console.log("a = "+ a);
+    let b = parseInt(prompt("Nhập giá trị b"));
+    console.log("b = "+ b);
+    if(isNaN(a) || isNaN(b)){
+        alert('Hãy nhập vào số');
+    }else if (a == 0){
+        alert("Phương trình vô nghiệm");
+    }else if ( a == b){
+        alert("Phương trình vô số nghiệm");
+    }else{
+        x = -b/a;
+        console.log(x)
+        alert("kết quả x là " + x);
+    }
+</script>
+
+</body>
+</html>

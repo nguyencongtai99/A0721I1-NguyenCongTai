@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--500 đồng cho mỗi gọi của 50 phút đầu tiên.-->
+
+<!--300 đồng cho mỗi phút gọi của 100 phút tiếp theo.-->
+
+<!--200 đồng cho bất kỳ mỗi phút nào sau 200 phút đầu tiên.-->
+<!--số phút, phí -->
+<!--tong,-->
+<!--phí cố định = 20;-->
+<script>
+let sophut = parseInt(prompt('Nhập số phút đã sử dụng'));
+if(sophut > 200 ){
+    phi = (sophut - 200)* 200 + 100 * 300 + 50 * 500;
+    alert('Tổng phí bạn phải trả là ' + phi);
+}else if(sophut > 50){
+    phi = (sophut - 50)*500 + 100 * 300;
+    alert('Tổng phí bạn phải trả là ' + phi);
+}else{
+    phi = sophut * 500;
+    alert('Tổng phí bạn phải trả là' + phi);
+}
+</script>
+
+</body>
+</html>
