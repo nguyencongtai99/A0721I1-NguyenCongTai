@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+    let soD = parseInt(prompt("Nhập vào số điện của bạn Kwh"));
+   let  bac1 =	 0 - 50	;
+   let  bac2 =  51 - 100;
+   let  bac3 =  101 - 200;
+   let  bac4 =  201 - 300;
+   let  bac5 =  301 - 400;
+   let  bac6 =  401 ;
+    if(soD < 0){
+        alert("nhập lại số điện, số điện không nhỏ hơn 0");
+    }else if( soD <=50){
+        tiendien = soD * bac1;
+        alert(" bạn đã dùng trong khoảng 0 - 50Kwh, số tiền phải trả là  "+ tiendien);
+    }else if(soD <= 100){
+        tiendien = 50 + bac1 + ((soD - 50) * bac2);
+        alert("bạn đã dùng trong khoảng 51 - 100Kwh, số tiền phải trả là "+ tiendien);
+    }else if(soD <= 200){
+        tiendien = 50 + bac1 + (50* bac2) *((soD - 100)* bac3);
+        alert("bạn đã dùng trong khoảng 101 - 200Kwh, số tiền phải trả là "+ tiendien);
+   }else if(soD <= 300){
+        tiendien = 50 + bac1 + (50 * bac2)+(100*bac3)+((soD - 300)*bac4);
+        alert("bạn đã dùng trong khoảng 201 - 300Kwh, số tiền phải trả là "+ tiendien);
+   }else if(soD <= 400){
+        tiendien = 50 + bac1 +(50* bac2)+(100 * bac3)+(100*bac4)+((soD - 400)*bac5);
+        alert("bạn đã dùng trong khoảng 301 - 400Kwh, số tiền phải trả là "+ tiendien);
+   }else if(soD > 400){
+        tiendien = 50 + bac1 + (50*bac2) + (100*bac3)+(100*bac4)+(100*bac5)+((soD - 400)*bac6);
+        alert("bạn đã dùng trên 401Kwh, số tiền phải trả là "+ tiendien);
+   }else{
+        alert("không trả tiền điện");
+   }
+</script>
+
+</body>
+</html>
