@@ -9,7 +9,7 @@
     <table>
         <tr>
             <td>
-                <input type="text"id="test">
+                <input type="text"id="month">
                 <button type="button"onclick="convert()">Tính Số Ngày</button>
             </td>
         <tr>
@@ -20,10 +20,10 @@
 </form>
 <script>
     function convert() {
-        let a = document.getElementById('test').value;
+        let month = document.getElementById('month').value;
         let result;
-        a = parseInt(a);
-        switch (a) {
+        month = parseInt(month);
+        switch (month) {
             case 1:
             case 3:
             case 5:
@@ -31,13 +31,13 @@
             case 8:
             case 10:
             case 12:
-                result = 'Tháng '+a+ " có 31 Ngày " ;
+                result = 'Tháng '+month+ " có 31 Ngày " ;
                 break;
             case 2:
                 result = 'Tháng 2 có 28 hoặc 29 ngày';
                 break;
             default:
-                result = 'Tháng ' +a+ " có 30 ngày";
+                result = 'Tháng ' +month+ " có 30 ngày";
                 break;
         }
         document.getElementById('rs').innerHTML=result;
