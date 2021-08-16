@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--   <input type="button" onclick="nguyenTo(this.value)" value="20">-->
+<!--<script>-->
+<!--    function nguyenTo(so) {-->
+<!--    let so_nguyen_to = " ";-->
+<!--    let numbers = 0;-->
+<!--    let count = 0;-->
+<!--    for( let i = 2 ; ; i++){-->
+<!--        if(i == 2 || i == 3){-->
+<!--            count++-->
+<!--            so_nguyen_to += i + " ";-->
+<!--        }else if (i % 2 == 0){-->
+<!--            numbers = 0;-->
+<!--        }else if (i >= 4){-->
+<!--            for (let j = 3; j < (i - 1); j++){-->
+<!--                if (i % j == 0){-->
+<!--                    numbers = 0;-->
+<!--                    break;-->
+<!--                }else {-->
+<!--                    numbers++;-->
+<!--                }-->
+<!--            }if (numbers > 0){-->
+<!--                so_nguyen_to += i + " ";-->
+<!--                count++;-->
+<!--                if (count == 20){-->
+<!--                    break;-->
+<!--                }-->
+<!--            }-->
+<!--        }-->
+<!--    }document.write("20 số nguyên tố là" + so_nguyen_to);-->
+<!--    }-->
+<!--</script>-->
+
+<script>
+    let count = 0;
+    let num = 2;
+    let result = " ";
+    while (count < 20) {
+        let flag = true;
+        if (num < 2){
+            flag = false;
+        } else {
+            for (let i = 2; i < num; i++) {
+                if (num % i == 0) {
+                    flag = false;
+                    break;
+                }
+            }
+        }
+        if (flag) {
+            result += num + " , ";
+            count++
+        }
+        num++;
+    }
+    document.write(result);
+
+</script>
+</body>
+</html>

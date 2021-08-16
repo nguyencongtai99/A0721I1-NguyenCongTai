@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+ let source ;
+     source = "<table border ='1' width = '300' cellpacing = '0' cellpadding ='3'>"
+    for(i = 1; i <=9; i++){
+        source = source + "<tr>";
+        for (j =2; j <= 9; j++){
+            source = source +"<td>" + j + 'x'+ i + '=' + j * i + "</td>";
+        }
+        source = source + "</tr>";
+    }
+    source = source + "</table>";
+    document.write(source);
+
+</script>
+</body>
+</html>

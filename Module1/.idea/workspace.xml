@@ -20,18 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f2850a1-436a-4f1c-a755-7eaea2219f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai10_cau_truc_lap1/SuDungVongLapLongNhau/ChuongTrinhHienThiBang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai10_cau_truc_lap1/ThuHanhSuDungVongLapWhile/Bai1VietPhuongTrinhTinhTongGiaTri.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai10_cau_truc_lap1/ThuHanhSuDungVongLapWhile/Bai2VietPhuongTrinhHienThiThHr.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai10_cau_truc_lap1/ThucHanhSuDungVongLapDo_While/VietChuongTrinhNhapSoTu1Toi10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai10_cau_truc_lap1/ThucHanhSuDungVongLapFor/Bai1HienThiChuoi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai10_cau_truc_lap1/ThucHanhSuDungVongLapFor/Bai2VietPhuongTrinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/BaiTapSinhBangCuuChuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/HienThiCacSoNguyenToDauTien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai1DemTu1Den100.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai2SuDungHamPrompt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai3HienThi20SoFibonacci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai4SoDauTienFibonacciChiaHetCho5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai5TinhTong20SoDauTien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai6Tong30SoChiaHetCho7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/bai7VietChuongTrinh1Den100.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/SuDungTheHtmlCoBan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai10_cau_truc_lap1/SuDungVongLapLongNhau/ChuongTrinhHienThiBang.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai10_cau_truc_lap1/SuDungVongLapLongNhau/ChuongTrinhHienThiBang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai6_Tong_quan_ve_javascript/thuc hanh/NhungJava.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai6_Tong_quan_ve_javascript/thuc hanh/NhungJava.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai9_cau_truc_dieu_kien2/bai tap/CauLenhSwitchCase.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_cau_truc_dieu_kien2/bai tap/CauLenhSwitchCase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai9_cau_truc_dieu_kien2/luyen_tap_1/TinhCuocDienThoai.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_cau_truc_dieu_kien2/luyen_tap_1/TinhCuocDienThoai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_cau_truc_dieu_kien2/luyen-tap_2/KiemTraTuoiCuaMotNguoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_cau_truc_dieu_kien2/luyen-tap_2/KiemTraTuoiCuaMotNguoi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai9_cau_truc_dieu_kien2/luyen-tap_2/TinhGiaDien.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai9_cau_truc_dieu_kien2/luyen-tap_2/TinhGiaDien.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +137,16 @@
       <workItem from="1628781079537" duration="1351000" />
       <workItem from="1628821983809" duration="676000" />
       <workItem from="1628837557199" duration="677000" />
-      <workItem from="1628852096845" duration="3953000" />
+      <workItem from="1628852096845" duration="6842000" />
+      <workItem from="1628862209311" duration="1243000" />
+      <workItem from="1628864064993" duration="585000" />
+      <workItem from="1628914345916" duration="3637000" />
+      <workItem from="1629011097043" duration="7289000" />
+      <workItem from="1629019844496" duration="1293000" />
+      <workItem from="1629027867716" duration="6276000" />
+      <workItem from="1629036687278" duration="810000" />
+      <workItem from="1629101074598" duration="2623000" />
+      <workItem from="1629111100309" duration="13259000" />
     </task>
     <servers />
   </component>
@@ -234,9 +246,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1628147524035" />
-    <state x="142" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1628516692941">
+    <state x="811" y="183" key="run.anything.popup" timestamp="1629114757976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="142" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1628516692941" />
+    <state x="811" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1629114757976" />
+    <state x="142" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1629120469562">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="142" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1629120469562" />
   </component>
 </project>

@@ -21,10 +21,10 @@
         tiendien = soD * bac1;
         alert(" bạn đã dùng trong khoảng 0 - 50Kwh, số tiền phải trả là  "+ tiendien);
     }else if(soD <= 100){
-        tiendien = 50 + bac1 + ((soD - 50) * bac2);
+        tiendien = 50 + bac1 + ((soD - 100) * bac2);
         alert("bạn đã dùng trong khoảng 51 - 100Kwh, số tiền phải trả là "+ tiendien);
     }else if(soD <= 200){
-        tiendien = 50 + bac1 + (50* bac2) *((soD - 100)* bac3);
+        tiendien = 50 + bac1 + (50* bac2) + ((soD - 200)* bac3);
         alert("bạn đã dùng trong khoảng 101 - 200Kwh, số tiền phải trả là "+ tiendien);
    }else if(soD <= 300){
         tiendien = 50 + bac1 + (50 * bac2)+(100*bac3)+((soD - 300)*bac4);

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   let count = 0; tong = 0;
+   let so = " ";
+   for (let i = 1; ; i++){
+       if (i%7 ==0){
+           so += i + " "
+           console.log(so);
+           tong += i;
+           count++;
+           if (count ==30) break
+       }
+   }
+   document.write(so + "  <br> ");
+   document.write("tông = " + tong);
+</script>
+</body>
+</html>
