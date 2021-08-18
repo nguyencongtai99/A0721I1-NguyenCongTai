@@ -8,17 +8,17 @@
 <script>
    let count = 0; tong = 0;
    let so = " ";
-   for (let i = 1; ; i++){
+   for (let i = 0; ; i++){
        if (i%7 ==0){
-           so += i + " "
+           so += i + " ";
            console.log(so);
+           count++
            tong += i;
-           count++;
-           if (count ==30) break
+           if (count == 30) break;
        }
    }
-   document.write(so + "  <br> ");
-   document.write("tông = " + tong);
+   document.write(so + "<br>");
+   document.write("tổng = "+ tong);
 </script>
 </body>
 </html>

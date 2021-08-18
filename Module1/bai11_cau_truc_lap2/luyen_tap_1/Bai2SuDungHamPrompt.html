@@ -6,17 +6,20 @@
 </head>
 <body>
 <script>
-    let nhietdo = prompt("nhập vào nhiệt độ");
-    while (nhietdo < 20 || nhietdo > 100){
-        if (nhietdo < 20){
-            alert("nhiệt độ quá lạnh ")
-            nhietdo = prompt("Nhập vào nhiệt độ");
-        }else if (nhietdo > 100){
-            alert("nhiệt độ quá nóng");
-            nhietdo = prompt("nhập lại nhiệt độ");
-        }
-    }
-    alert("nhiệt độ bình thường");
+   let nhietdo = prompt("nhập nhiệt độ vào ...");
+   while (nhietdo < 20 || nhietdo > 100) {
+       if (nhietdo < 20) {
+           alert("Nhiệt độ quá lạnh");
+           nhietdo = prompt("Nhập lại nhiệt độ")
+
+       } else if (nhietdo > 100) {
+           alert("nhiệt độ quá nóng");
+           nhietdo = prompt("Nhập lại nhiệt độ");
+       }
+   }
+   alert("nhiệt độ bình thường");
+
+
 </script>
 
 </body>
