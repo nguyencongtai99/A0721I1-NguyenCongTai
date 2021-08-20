@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f2850a1-436a-4f1c-a755-7eaea2219f48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap-2/Bai1InDayFibonacci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap-2/Bai5TinhLaiNganHang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/GameDoanSo.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/SuDungTheHtmlCoBan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai11_cau_truc_lap2/HienThiCacSoNguyenToDauTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/HienThiCacSoNguyenToDauTien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai1DemTu1Den100.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai1DemTu1Den100.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai2SuDungHamPrompt.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai2SuDungHamPrompt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai4SoDauTienFibonacciChiaHetCho5.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai4SoDauTienFibonacciChiaHetCho5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai5TinhTong20SoDauTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai5TinhTong20SoDauTien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai6Tong30SoChiaHetCho7.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai6Tong30SoChiaHetCho7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap-2/Bai3InTamGiacVuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap-2/Bai3InTamGiacVuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai3HienThi20SoFibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai3HienThi20SoFibonacci.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
@@ -143,7 +142,9 @@
       <workItem from="1629111100309" duration="13869000" />
       <workItem from="1629177043045" duration="1537000" />
       <workItem from="1629201282497" duration="2282000" />
-      <workItem from="1629267868848" duration="7233000" />
+      <workItem from="1629267868848" duration="7309000" />
+      <workItem from="1629284407267" duration="12556000" />
+      <workItem from="1629347512976" duration="498000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" onclick="start()" value="bắt đầu">
+<script>
+    function start() {
+        let phamVi = prompt("đoán số bắt đầu từ 0 đến ...");
+        let nhapSo = prompt("nhập số cần đoán ");
+        let ketQua;
+        let source = 5;
+        if (phamVi) {
+            ketQua = Math.round(Math.random() * phamVi);
+            if (ketQua == nhapSo) {
+                alert("Bán đã đoán đúng");
+            } else {
+                while (ketQua != nhapSo) {
+                        alert("Bạn đã đoán sai yêu cầu đoán lại" + ketQua);
+                        nhapSo = prompt("nhập lại");
+                }
+            }
+            alert("Bạn đã đúng! kết thúc trò chơi")
+        }
+    }
+
+</script>
+
+</body>
+</html>

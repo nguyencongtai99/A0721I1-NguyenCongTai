@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <script>
+     let num = prompt("nhập số từ bàn phím");
+     let f = 0, f0 = 1, f1 = 0
+     let fibonacci = " ";
+     for(let i = 0; i < num ; i ++) {
+         if (i == 0) {
+             f = 1
+             f1 = 1
+             fibonacci += f + " "
+         }else {
+             f = f0 + f1;
+             f0 = f1;
+             f1 = f;
+             console.log(i + "="+ f);
+             fibonacci += f + " ";
+         }
+     }
+     document.write("số Fibonacci là " + fibonacci);
+
+
+ </script>
+</body>
+</html>
