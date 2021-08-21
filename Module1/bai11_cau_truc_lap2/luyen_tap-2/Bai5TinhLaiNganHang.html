@@ -9,17 +9,17 @@
 <!-- số tháng-->
 <!--// công thức tính lãi ngân hàng Số tiền lãi = Số tiền gửi x lãi suất (%năm)/12 x số tháng gửi.-->
 <script>
- let tiengui = parseInt(prompt("nhập tiền gửi vào lãi suất 4%/năm"));
- let sothang = parseInt(prompt("nhập số tháng muốn gửi "));
- let tien_lai_thang = 0;
- let tong_tien_lai = tien_lai_thang;
- for (let i = 0; i < sothang; i ++){
-    tien_lai_thang = ((tiengui*10)/100)
-    tong_tien_lai += tien_lai_thang;
-    tiengui += tien_lai_thang;
-    document.write(" tiền lãi tháng  " + (i+1)+ "  là  " + tien_lai_thang + "  VND <br> ");
+ let tienGui = parseInt(prompt("nhập tiền gửi vào lãi suất 10%/năm"));
+ let soThang = parseInt(prompt("nhập số tháng muốn gửi "));
+ let tienLaiThang = 0;
+ let tongTienLai = tienLaiThang;
+ for (let i = 0; i < soThang; i ++){
+    tienLaiThang = ((tienGui*10)/100)
+    tongTienLai += tienLaiThang;
+    tienGui += tienLaiThang;
+    document.write(" tiền lãi tháng  " + (i+1)+ "  là  " + tienLaiThang + "  VND <br> ");
  }
- document.write("  tổng tiền lãi của bạn trong  " + sothang + "  là  " + tong_tien_lai + "  VNĐ  " );
+ document.write("  tổng tiền lãi của bạn trong  " + soThang + "  là  " + tongTienLai + "  VNĐ  " );
 </script>
 </body>
 </html>

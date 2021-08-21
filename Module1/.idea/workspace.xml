@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f2850a1-436a-4f1c-a755-7eaea2219f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap-2/Bai1InDayFibonacci.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap-2/Bai5TinhLaiNganHang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/GameDoanSo.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/SuDungTheHtmlCoBan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap-2/Bai3InTamGiacVuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap-2/Bai3InTamGiacVuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai3HienThi20SoFibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai3HienThi20SoFibonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap-2/Bai5TinhLaiNganHang.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap-2/Bai5TinhLaiNganHang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
@@ -145,6 +141,8 @@
       <workItem from="1629267868848" duration="7309000" />
       <workItem from="1629284407267" duration="12556000" />
       <workItem from="1629347512976" duration="498000" />
+      <workItem from="1629461354582" duration="5764000" />
+      <workItem from="1629551318903" duration="178000" />
     </task>
     <servers />
   </component>
