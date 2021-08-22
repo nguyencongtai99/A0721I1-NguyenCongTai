@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!--Bước 1: Nhập giá trị cần tìm từ hộp thoại và lưu vào biến value-->
+<!--Bước 2: Khai báo mảng x và khởi tạo giá trị ban đầu cho mảng-->
+<!--Bước 3: Dùng vòng lặp duyệt toàn bộ mảng x. Kiểm tra nếu một phần tử trong mảng x bằng giá trị được nhập vào
+thì hiển thị thông báo:-->
+<body>
+<script>
+    let value = prompt("Enter a number");
+    let x = [-1,5,7,3,7,5,4,9];
+    for (let i = 0; i < x.length; i++){
+        if (value == x[i]){
+            alert("value" + x[i] + "found at " + i);
+        }
+    }
+</script>
+</body>
+</html>
