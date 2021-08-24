@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--khai báo vị trí;-->
+<!--khai bao max;-->
+<!--khai bao mảng;-->
+<script>
+    let mangso = [];
+    let max = 0;
+    let viTri = 0;
+    for (let i = 0; i < 10; i++){
+        mangso[i] = parseInt(prompt("nhập vào 10 phần tử"));
+    }
+    document.writeln("mangso = ["+mangso+"]<br>");
+    for (let i = 0; i <mangso.length; i++){
+        if (max < mangso[i]){
+             max = mangso[i]
+            viTri = i;
+        }
+    }
+    document.writeln("giá trị lớn nhất là " + max + " tại vị trí thứ " + viTri)
+</script>
+
+</body>
+</html>

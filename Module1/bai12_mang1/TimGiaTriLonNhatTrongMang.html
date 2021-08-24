@@ -11,16 +11,16 @@
 <!--có giá trị lớn hơn max thì gáb max chính là phần tử đó và gán index bằng vị trí của phần tử đó.-->
 <body>
 <script>
-    let x  = [-6,10,5,4,6,55,70,60,0,66,65,31,21,22];
-    let max = [0];
-    let index= 0;
-    for (let i = 0; i < x.length; i++){
-        if (x[i] > max){
-            max = x[i];
-            index = i;
+    let number =[-3,5,3,4,90,52,32,55,20,35]
+    let max = number[0];
+    let index = 0;
+    for(let i = 0; i < number.length; i++){
+        if (number[i]> max){
+            max = number[i]
+           index = i;
         }
     }
-    alert("giá trị lớn nhất là " + max + " ở hàng số " + index);
+    document.writeln("số lớn nhất là " + max + " thuộc hàng thứ " + index);
 </script>
 
 </body>

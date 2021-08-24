@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--khai báo mảng;-->
+<!--khai báo mảng lớn;-->
+<!--dùng push để nối các phần tử lớn hơn 10 trong mảng -->
+<script>
+   let mang = [];
+   let mangsolon = [];
+   for (let i = 0; i < 10; i++){
+       mang[i] = parseInt(prompt("nhập 10 số vào"));
+   }
+   document.writeln("mang = ["+ mang +"]<br>");
+
+   for (let i = 0; i < mang.length; i++){
+       if (mang[i] > 10){
+           mangsolon.push(mang[i])
+       }
+   }
+   document.writeln("các số >=10 trong phần tử là ["+ mangsolon +"]<br>");
+
+</script>
+
+</body>
+</html>

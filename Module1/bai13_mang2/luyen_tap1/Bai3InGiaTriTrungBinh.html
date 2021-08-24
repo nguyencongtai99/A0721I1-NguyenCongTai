@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--khai báo mảng-->
+<!--khai báo max-->
+<!--khai báo trung bình-->
+<!--avg = sum/elmt.length;-->
+<script>
+   let mang = []
+    let max =0; trungbinh = 0;
+
+    for (let i = 0; i <5; i++){
+        mang[i] = parseInt(prompt("nhập giá trị các phần tử"));
+    }
+    document.writeln("mangso = ["+mang+"]<br>");
+
+    for (let i =0; i < mang.length; i++){
+        if (mang[i]>max){
+            max = mang[i];
+        }
+        trungbinh += mang[i];
+    }
+    trungbinh = trungbinh/mang.length;
+    document.writeln("giá trị lớn nhất trong mảng là " + max);
+    document.writeln("Trung bình của các giá trị trong mảng là " +trungbinh);
+
+</script>
+</body>
+</html>
