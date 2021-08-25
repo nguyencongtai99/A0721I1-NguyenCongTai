@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   let mang = ['c', 's', 'c', '2', '6', '1'];
+   let trunggian ;
+   for (let i = 0; i < mang.length; i++){
+       for (let j = i+1; j < mang.length; j++){
+           trunggian = mang[i];
+           mang[i] = mang[j];
+           mang[j] = trunggian;
+       }
+   }
+   document.writeln(" Mảng đổi chiều = ["+mang+"]<br>");
+</script>
+</body>
+</html>

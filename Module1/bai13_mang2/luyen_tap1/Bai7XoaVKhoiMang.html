@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mangso = [1,2,3,4,5,6,7,8,9,10];
+    let v = prompt("nhập giá trị từ bàn phím");
+    for (let i = 0; i < mangso.length; i++){
+        if(v == mangso[i]){
+            for (let j = i; j<mangso.length - 1; j++){
+                mangso[j] = mangso[j+1];
+            }
+            mangso[mangso.length-1] = 0;
+            i--;
+        }
+    }
+    alert(mangso);
+</script>
+</body>
+</html>
