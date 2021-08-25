@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử. -->
+<!--Chương trình sắp xếp mảng theo thứ tự giảm dần và hiển thị ra mảng đã được sắp xếp.-->
+<!--khai báo mảng;-->
+<!--khai báo giá trị nhỏ nhất;-->
+<script>
+    let mangso = [];
+    let min = 0;
+    for (let i = 0; i < 10 ; i++){
+        mangso[i] = parseInt(prompt("nhập giá trị từ bàn phím"));
+    }
+    document.writeln("mảng số ["+mangso+"]<br>");
+    for (let i = 0; i < mangso.length - 1; i++){
+        for (let j = i+1; j < mangso.length; j++){
+            if (mangso[i]<mangso[j]){
+                min = mangso[i];
+                mangso[i] = mangso[j];
+                mangso[j] = min;
+            }
+        }
+    }
+    document.writeln("Thứ tự từ lớn đến nhỏ là ["+mangso+"]<br>");
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let mangso = [];
+  flag = true;
+  for (let i = 0; i <5; i++){
+      mangso[i] = parseInt(prompt("nhập giá trị"));
+      if (mangso[i] == "V"){
+          flag = false;
+      }
+  }
+  document.writeln("mảng số = ["+mangso+"]<br>");
+  if (flag == false){
+      document.writeln("V is in the array");
+  }else {
+      document.writeln("V is not in the array")
+  }
+</script>
+</body>
+</html>

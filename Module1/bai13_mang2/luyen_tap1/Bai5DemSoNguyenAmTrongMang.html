@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mangso = [];
+    let mangsoam  = [];
+    for (let i = 0; i < 5; i ++){
+        mangso[i] = parseInt(prompt("nhập giá trị từ bàn phím"));
+        if (mangso[i] < 0){
+            mangsoam.push(mangso[i]);
+        }
+    }
+    document.writeln(" Mảng số gồm = ["+mangso+"]<br>");
+    document.writeln(" Mảng âm gồm " + mangsoam.length + " phần tử là ["+mangsoam+"]<br>");
+</script>
+</body>
+</html>

@@ -20,21 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f2850a1-436a-4f1c-a755-7eaea2219f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai13_mang2/BaiTapTuDien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai1TinhVaHienThi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai2HienThiGiaTriLonNhatTrongMangVaViTri.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai3InGiaTriTrungBinh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai4DaoNguocCacPhanTuTrongMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai13_mang2/su_dung_cac_ham_co_san_cua_mang/Bai3NhapChuoiVaChuyenCacKyTu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai5DemSoNguyenAmTrongMang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai6VietChuongTrinhKhoiTao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai8SăpXepMangTheoThuTuGiamDan.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/SuDungTheHtmlCoBan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai1DemTu1Den100.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/Bai1DemTu1Den100.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/GameDoanSo.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai11_cau_truc_lap2/luyen_tap_1/GameDoanSo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai12_mang1/DaoNguocCacPhanTu.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai12_mang1/DaoNguocCacPhanTu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai12_mang1/TaoVaThaoTacVoiMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai12_mang1/TaoVaThaoTacVoiMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai12_mang1/TimGiaTriLonNhatTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai12_mang1/TimGiaTriLonNhatTrongMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai13_mang2/su_dung_cac_ham_co_san_cua_mang/Bai1NoiCacPhanTuTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/su_dung_cac_ham_co_san_cua_mang/Bai1NoiCacPhanTuTrongMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai13_mang2/su_dung_cac_ham_co_san_cua_mang/Bai2VietChuongTrinhNhapVao.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/su_dung_cac_ham_co_san_cua_mang/Bai2VietChuongTrinhNhapVao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai4DaoNguocCacPhanTuTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai4DaoNguocCacPhanTuTrongMang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
@@ -168,7 +159,9 @@
       <workItem from="1629716106279" duration="12018000" />
       <workItem from="1629729810968" duration="4228000" />
       <workItem from="1629778043937" duration="3270000" />
-      <workItem from="1629781960036" duration="1805000" />
+      <workItem from="1629781960036" duration="2037000" />
+      <workItem from="1629803204589" duration="83000" />
+      <workItem from="1629873143891" duration="5030000" />
     </task>
     <servers />
   </component>
@@ -272,9 +265,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="811" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1629114757976" />
-    <state x="142" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1629733597831">
+    <state x="142" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1629876180322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="142" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1629733597831" />
+    <state x="142" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1629876180322" />
   </component>
 </project>
