@@ -6,18 +6,31 @@
 </head>
 <body>
 <script>
-    let mangso = [1,2,3,4,5,6,7,8,9,10];
-    let v = prompt("nhập giá trị từ bàn phím");
-    for (let i = 0; i < mangso.length; i++){
-        if(v == mangso[i]){
-            for (let j = i; j<mangso.length - 1; j++){
-                mangso[j] = mangso[j+1];
+    // let mangso = [1,2,3,4,5,6,7,8,9,10];
+    // let v = prompt("nhập giá trị từ bàn phím");
+    // for (let i = 0; i < mangso.length; i++){
+    //     if(v == mangso[i]){
+    //         for (let j = i; j<mangso.length - 1; j++){
+    //             mangso[j] = mangso[j+1];
+    //         }
+    //         mangso[mangso.length-1] = 0;
+    //         i--;
+    //     }
+    // }
+    // alert(mangso);
+
+    let mang = [1,2,3,4,5,6,7,9,8,10];
+    let v = prompt("nhập giá trị");
+    for (let i = 0; i <mang.length; i ++){
+        if (v == mang[i]){
+            for (let j = i; j<mang.length; j++){
+                mang[j] = mang[j+1];
             }
-            mangso[mangso.length-1] = 0;
+            mang[mang.length - 1] =0;
             i--;
         }
     }
-    alert(mangso);
+    alert(mang);
 </script>
 </body>
 </html>

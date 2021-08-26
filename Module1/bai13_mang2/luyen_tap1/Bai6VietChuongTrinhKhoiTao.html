@@ -6,21 +6,20 @@
 </head>
 <body>
 <script>
-  let mangso = [1,2,3,4,5,6,7,8,9,10];
-  flag = false;
-  let v  = prompt("nhập giá trị");
-  for (let i = 0; i < mangso.length; i++) {
-      if (v == mangso[i]){
-          alert("V is a Array")
-          flag = true;
-          break;
-      }
-  }
-  if (flag){
-      alert("V is a Array");
-  }else {
-      alert("V is Not a Array")
-  }
+ let mang = [1,2,3,4,5,6,7,8,9,10];
+ flag = false;
+ let v = prompt("nhập giá trị");
+ for (let i = 0; i < mang.length; i++){
+     if (v == mang[i]){
+         flag = true;
+     }
+ }
+ if (flag){
+     alert("V is a Array");
+ }else {
+     alert("V is Not Array")
+ }
+
 </script>
 </body>
 </html>

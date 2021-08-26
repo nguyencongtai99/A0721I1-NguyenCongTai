@@ -9,21 +9,21 @@
     let mang1 = [];
     let mang2 = [];
     let mang3 = [];
-    for (let i = 0; i<10; i++){
-    let a = parseInt(prompt("nhập giá trị mảng số 1 "))
-    mang1.push(a)
+    for (let i = 0; i <10; i++){
+        let a = parseInt(prompt(" Nhập giá trị mảng 1 "));
+        mang1.push(a);
     }
-    for (let j = 0; j < 10; j++){
-    let b = parseInt(prompt("nhập giá trị mảng số 2 "));
-    mang2.push(b);
+    for (let j =0; j < 10; j++){
+        let b =parseInt(prompt(" Nhập giá trị mảng 2 "));
+        mang2.push(b);
     }
-    document.writeln("mảng 1 = ["+mang1+"]<br>");
-    document.writeln("mảng 2 = ["+mang2+"]<br>");
+    document.writeln(" Mảng 1 ["+mang1+"]<br>");
+    document.writeln(" Mảng 2 ["+mang2+"]<br>");
     mang3 = mang1;
-    for (let i = 0; i < mang2.length; i++){
-    mang3.push(mang2[i]);
+    for ( let i = 0; i < 10; i++){
+        mang3.push(mang2[i]);
     }
-    document.writeln("Mảng số 3 = ["+mang3+"]<br>");
+    document.writeln("Mảng 3 là ["+mang3+"]")
 </script>
 </body>
 </html>

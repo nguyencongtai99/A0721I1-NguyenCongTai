@@ -10,22 +10,18 @@
 <!--khai báo mảng;-->
 <!--khai báo giá trị nhỏ nhất;-->
 <script>
-    let mangso = [];
-    let min = 0;
-    for (let i = 0; i < 10 ; i++){
-        mangso[i] = parseInt(prompt("nhập giá trị từ bàn phím"));
-    }
-    document.writeln("mảng số ["+mangso+"]<br>");
-    for (let i = 0; i < mangso.length - 1; i++){
-        for (let j = i+1; j < mangso.length; j++){
-            if (mangso[i]<mangso[j]){
-                min = mangso[i];
-                mangso[i] = mangso[j];
-                mangso[j] = min;
-            }
-        }
-    }
-    document.writeln("Thứ tự từ lớn đến nhỏ là ["+mangso+"]<br>");
+  let mang = [1,2,3,4,5,6,7,8,9,10];
+  let min = [];
+  for (let i = 0; i < mang.length;i++){
+      for (let j = i+1; j < mang.length; j++){
+          if (mang[i] < mang[j]){
+              min = mang[i]
+              mang[i] = mang[j]
+              mang[j] = min
+          }
+      }
+  }
+  document.writeln("Thứ tự từ lớn đến nhỏ là " + mang);
 </script>
 </body>
 </html>

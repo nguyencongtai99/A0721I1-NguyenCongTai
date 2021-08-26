@@ -9,20 +9,14 @@
 <!--khai báo mảng lớn;-->
 <!--dùng push để nối các phần tử lớn hơn 10 trong mảng -->
 <script>
-   let mang = [];
-   let mangsolon = [];
-   for (let i = 0; i < 10; i++){
-       mang[i] = parseInt(prompt("nhập 10 số vào"));
-   }
-   document.writeln("mang = ["+ mang +"]<br>");
-
+   let mang = [20,50,2,13,14,21,26,24,23,9];
+   let mangso = []
    for (let i = 0; i < mang.length; i++){
        if (mang[i] > 10){
-           mangsolon.push(mang[i])
+           mangso.push(mang[i]);
        }
    }
-   document.writeln("các số >=10 trong phần tử là ["+ mangsolon +"]<br>");
-
+document.writeln(" mảng số lớn hơn 10 là " +mangso);
 </script>
 
 </body>

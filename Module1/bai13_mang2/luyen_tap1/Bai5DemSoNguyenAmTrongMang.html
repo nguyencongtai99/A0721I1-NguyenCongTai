@@ -6,16 +6,14 @@
 </head>
 <body>
 <script>
-    let mangso = [];
-    let mangsoam  = [];
-    for (let i = 0; i < 5; i ++){
-        mangso[i] = parseInt(prompt("nhập giá trị từ bàn phím"));
-        if (mangso[i] < 0){
-            mangsoam.push(mangso[i]);
-        }
-    }
-    document.writeln(" Mảng số gồm = ["+mangso+"]<br>");
-    document.writeln(" Mảng âm gồm " + mangsoam.length + " phần tử là ["+mangsoam+"]<br>");
+   let mang = [1,2,-3,4,-5,-6,7,8,-9,10];
+   let mangAm = [];
+   for (let i = 0; i < mang.length; i++){
+       if (mang[i] < 0){
+           mangAm.push(mang[i]);
+       }
+   }
+   document.writeln("Mảng số gồm " + mangAm.length + " phần tử  mảng âm " + mangAm);
 </script>
 </body>
 </html>

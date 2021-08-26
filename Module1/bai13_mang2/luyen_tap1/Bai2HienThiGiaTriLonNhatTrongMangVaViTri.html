@@ -9,20 +9,16 @@
 <!--khai bao max;-->
 <!--khai bao mảng;-->
 <script>
-    let mangso = [];
-    let max = 0;
-    let viTri = 0;
-    for (let i = 0; i < 10; i++){
-        mangso[i] = parseInt(prompt("nhập vào 10 phần tử"));
-    }
-    document.writeln("mangso = ["+mangso+"]<br>");
-    for (let i = 0; i <mangso.length; i++){
-        if (max < mangso[i]){
-             max = mangso[i]
-            viTri = i;
-        }
-    }
-    document.writeln("giá trị lớn nhất là " + max + " tại vị trí thứ " + viTri)
+   let mang = [56,89,45,25,441,55,68,6842,45,7];
+   let vitri = 0;
+   let max = 0;
+   for (let i = 0; i<mang.length; i++){
+       if (max < mang[i]){
+           max = mang[i];
+           vitri = i;
+       }
+   }
+   document.writeln("Số lớn nhât trong mảng là " + max + " ở vị trí thứ "+ vitri);
 </script>
 
 </body>

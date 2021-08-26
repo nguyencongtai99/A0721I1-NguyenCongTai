@@ -6,16 +6,16 @@
 </head>
 <body>
 <script>
-   let mang = ['c', 's', 'c', '2', '6', '1'];
-   let trunggian ;
-   for (let i = 0; i < mang.length; i++){
-       for (let j = i+1; j < mang.length; j++){
-           trunggian = mang[i];
-           mang[i] = mang[j];
-           mang[j] = trunggian;
+   let mang = [1,223,546,879,45,1,254,21,5,245,1,45,0,1,5,3,5,3,6,20,325,5,3];
+   let mangDao = [];
+   for (let i = 0; i< mang.length; i++){
+       for (let j = i+1; j<mang.length; j++){
+           mangDo = mang[i]
+           mang[i]= mang[j]
+           mang[j] = mangDo
        }
    }
-   document.writeln(" Mảng đổi chiều = ["+mang+"]<br>");
+   document.writeln("Mảng Đảo ngược là "+ mang)
 </script>
 </body>
 </html>
