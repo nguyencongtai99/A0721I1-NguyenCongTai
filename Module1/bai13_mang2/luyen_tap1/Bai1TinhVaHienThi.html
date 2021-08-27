@@ -9,14 +9,14 @@
 <!--khai báo mảng lớn;-->
 <!--dùng push để nối các phần tử lớn hơn 10 trong mảng -->
 <script>
-   let mang = [20,50,2,13,14,21,26,24,23,9];
-   let mangso = []
-   for (let i = 0; i < mang.length; i++){
-       if (mang[i] > 10){
-           mangso.push(mang[i]);
-       }
-   }
-document.writeln(" mảng số lớn hơn 10 là " +mangso);
+  let mang = [10,5,6,-2,101,100,9,8,7,40];
+  let mangSo = []
+    for (let i = 0; i < mang.length; i++){
+        if (mang[i] >= 10){
+            mangSo.push(mang[i])
+        }
+    }
+    document.writeln(" Mảng Số lớn hơn 10 là ["+mangSo+"]")
 </script>
 
 </body>

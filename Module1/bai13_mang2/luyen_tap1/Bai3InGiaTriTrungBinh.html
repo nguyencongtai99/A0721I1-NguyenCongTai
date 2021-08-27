@@ -10,18 +10,18 @@
 <!--khai báo trung bình-->
 <!--avg = sum/elmt.length;-->
 <script>
-   let mang = [1,2,3,4,5,6,7,8,9,10];
-   let max =0;
-   let mangTB = 0;
-   for (let i = 0; i < mang.length; i++){
-       if (mang[i]> max){
-           max = mang[i]
-       }
-       mangTB += mang[i];
-   }
-   mangTB = mangTB/mang.length;
-    document.writeln("Số lớn nhất trong mảng là "+max );
-   document.writeln("Trung bình các phần tử trong mảng là "+ mangTB );
+    let mang = [10,50,40,90,20,44,20,12,11,15];
+    let max = 0;
+    let mangTb = 0;
+    for (let i = 0; i < mang.length; i++){
+        if (mang[i] > max){
+            max = mang[i];
+        }
+        mangTb += mang[i];
+    }
+    mangTb = mangTb/mang.length;
+    document.writeln(" giá trị lớn nhất là " +max +" ở phần tử thứ " + mang.length +"<br>");
+    document.writeln(" giá trị trung bình " + mangTb);
 
 </script>
 </body>

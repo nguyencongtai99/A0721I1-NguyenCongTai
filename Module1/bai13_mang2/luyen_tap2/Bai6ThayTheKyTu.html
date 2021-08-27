@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let mang = new Array(prompt(" nhập giá trị từ bàn phím"));
+  let mangDoi = [];
+  for (let i = 0; i < mang.length; i++){
+      for (let j = 0; j < mang[i].length; j++){
+          if (mang[i][j] == "-"){
+              mang[i][j] = "_";
+              mangDoi.push("_");
+          }else {
+              mangDoi.push(mang[i][j])
+          }
+      }
+  }
+  document.writeln("Mảng thay thế là ["+mangDoi.join("")+"]<br>");
+</script>
+
+</body>
+</html>

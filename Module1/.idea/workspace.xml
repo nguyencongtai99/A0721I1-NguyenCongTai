@@ -20,22 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f2850a1-436a-4f1c-a755-7eaea2219f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap2/Bai4DemSoTuTrongChuoi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap2/Bai5SoSanhChuoiBangNhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap2/Bai6ThayTheKyTu.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/SuDungTheHtmlCoBan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai1TinhVaHienThi.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai1TinhVaHienThi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai2HienThiGiaTriLonNhatTrongMangVaViTri.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai2HienThiGiaTriLonNhatTrongMangVaViTri.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai3InGiaTriTrungBinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai3InGiaTriTrungBinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai4DaoNguocCacPhanTuTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai4DaoNguocCacPhanTuTrongMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai5DemSoNguyenAmTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai5DemSoNguyenAmTrongMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai6VietChuongTrinhKhoiTao.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai6VietChuongTrinhKhoiTao.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai7XoaVKhoiMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai7XoaVKhoiMang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai8SăpXepMangTheoThuTuGiamDan.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai8SăpXepMangTheoThuTuGiamDan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai9KhoiTaoHienThiMangc.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap1/Bai9KhoiTaoHienThiMangc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap2/Bai1KhoiTaoMang2Chieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap2/Bai1KhoiTaoMang2Chieu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap2/Bai2InKyTuDaoNguoc.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap2/Bai2InKyTuDaoNguoc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap2/Bai3KhaiBaoKyTuVaKichThuoc.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap2/Bai3KhaiBaoKyTuVaKichThuoc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai13_mang2/luyen_tap2/Bai5SoSanhChuoiBangNhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai13_mang2/luyen_tap2/Bai5SoSanhChuoiBangNhau.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
@@ -173,7 +166,11 @@
       <workItem from="1629803204589" duration="83000" />
       <workItem from="1629873143891" duration="5030000" />
       <workItem from="1629888568903" duration="8326000" />
-      <workItem from="1629986678053" duration="5239000" />
+      <workItem from="1629986678053" duration="5365000" />
+      <workItem from="1630060665582" duration="1568000" />
+      <workItem from="1630062649891" duration="5483000" />
+      <workItem from="1630068890468" duration="2797000" />
+      <workItem from="1630081619112" duration="45000" />
     </task>
     <servers />
   </component>

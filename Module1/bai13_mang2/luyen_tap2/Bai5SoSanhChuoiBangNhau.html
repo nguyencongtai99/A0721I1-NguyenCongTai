@@ -6,6 +6,20 @@
 </head>
 <body>
 <script>
+    let mang1 = prompt("  nhập giá trị 1");
+    let mang2 = prompt(" nhập giá trị 2");
+    flag = false;
+    for (let i = 0; i < mang1.length; i++){
+        for (let j = 0; j < mang2.length; j++){
+            if (mang1[i] == mang2[j]){
+                flag = true;
+            }
+        }
+    }if (flag){
+        alert(" hai chuỗi giống nhau");
+    }else {
+        alert("hai chuỗi không giống nhau");
+    }
 </script>
 </body>
 </html>
