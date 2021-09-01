@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="nhapvao">
+<select id="luachon">
+    <option value="meters">Meters</option>
+    <option value="feet">feet</option>
+</select>
+<input type="button" value="đổi" onclick="chuyenDoi()">
+<p id="result"></p>
+
+</body>
+<script>
+    function footToMeter(foot){
+       let meter = 0.305 * foot
+        return meter;
+    }
+    function meterToFoot(meter){
+        let feet = 3.279 * meter;
+        return feet;
+    }
+
+    function chuyenDoi() {
+    let chon = document.getElementById("luachon");
+    let giatri = document.getElementById("nhapvao");
+    let result;
+    if (chon.value === "feet"){
+        result = footToMeter(giatri.value);
+        document.getElementById("result").innerHTML = "result = " +result + " meters";
+    }else {
+        result = meterToFoot(giatri.value);
+        document.getElementById("result").innerHTML = " result = " + result + " feet";
+    }
+    }
+
+</script>
+</html>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   function kiemTra(i) {
+    if (i %2 ===0 || i%2 ===1){
+        return true;
+    }
+    return false;
+   }
+   let i = prompt(" nhập giá trị");
+   let ktra = kiemTra(i);
+   if (ktra){
+       console.log(" Đây là số")
+   }else {
+       console.log("Đây là chuỗi")
+   }
+</script>
+</body>
+</html>

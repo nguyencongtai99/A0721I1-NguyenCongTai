@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   function dienTich(r, pi) {
+    let S = r * r * pi;
+    return S;
+   }
+   function chuVi(r, pi) {
+    let C = 2 *r * pi;
+    return C;
+   }
+
+   let r = parseInt(prompt("Nhập bán kính"));
+   const pi = 3.14;
+   let dientich = dienTich(r, pi);
+   let chuvi = chuVi(r, pi);
+   console.log(" Diện tích hình tròn là " + dientich);
+   console.log(" Chu vi hình tròn là " + chuvi);
+</script>
+</body>
+</html>
