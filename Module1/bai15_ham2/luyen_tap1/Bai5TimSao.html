@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <script>
-function ngoiSao(sao) {
+    function timSao(sao) {
     let sao1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
     let sao2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
     for (let i = 0; i < sao1.length; i++){
@@ -14,14 +14,14 @@ function ngoiSao(sao) {
         }
     }
     return "";
-}
-let timSao = prompt("Nhập tên sao cần tìm! ");
-let sao = ngoiSao(timSao);
-if (sao === ""){
-    alert("Không có tên ngôi sao");
-}else {
-    alert(" Tên ngôi sao " + timSao + " là " + sao);
-}
+    }
+    let timNgoiSao = prompt(" Nhập tên Ngôi sao");
+    let sao = timSao(timNgoiSao);
+    if (sao === ""){
+        console.log("không có tên ngôi sao")
+    }else {
+        console.log("Tên ngôi sao  " + timNgoiSao+ " là " + sao);
+    }
 </script>
 </body>
 </html>

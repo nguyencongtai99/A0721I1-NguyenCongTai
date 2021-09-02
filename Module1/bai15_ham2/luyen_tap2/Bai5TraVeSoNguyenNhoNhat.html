@@ -6,7 +6,23 @@
 </head>
 <body>
 <script>
-    
+   function timMin(so) {
+       let min;
+       for (let i = 0; i < so.length; i++){
+           min = so[0]
+           if (so[i] < min){
+               min = so[i];
+           }
+       }
+
+       return min;
+   }
+   let so = [];
+   for (let i = 0; i < 3; i++){
+        so[i] = parseInt(prompt("Nhập giá trị"))
+   }
+   let min = timMin(so)
+    console.log("Số nhỏ nhất là " + min);
 </script>
 
 </body>

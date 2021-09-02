@@ -6,15 +6,15 @@
 </head>
 <body>
 <script>
-    function tinhTong(a,b) {
+   function avg(a,b) {
     if (a > b){
-        return " Giá trị A lớn hơn B yêu cầu nhập lại"
+        return " Giá trị A lớn hơn B yêu cầu nhập lại";
     }
-    return  a+b;
-    }
-    let a = parseInt(prompt("Nhập Giá trị a"));
-    let b = parseInt(prompt("Nhập Giá trị b"));
-    console.log(" Tông của " +a+ " + " +b+ " = " + tinhTong(a,b))
+    return a + b;
+   }
+   let a = parseInt(prompt("Nhập giá trị a"));
+   let b = parseInt(prompt("Nhập giá trị b"));
+   console.log("Tổng của a + b  = " + avg(a,b));
 </script>
 
 </body>

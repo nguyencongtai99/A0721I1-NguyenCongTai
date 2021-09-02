@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Number.isInteger : Kiểm tra giá trị thuộc kiểu số nguyên hay không và trả về true or false;-->
+<script>
+    function checkSoNguyenDuong(so) {
+        return  Number.isInteger(so) && so > 0;
+    }
+
+    let so = parseInt(prompt("Nhập giá trị"));
+    let check = checkSoNguyenDuong(so)
+    if (check){
+        console.log("Đây là số nguyên dương");
+    }else {
+        console.log("đây không phải số nguyên dương")
+    }
+</script>
+</body>
+</html>

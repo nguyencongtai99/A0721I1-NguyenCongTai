@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   function kiemTraKyTu(kytu, mang) {
+    let count = 0;
+    for (let i = 0; i < mang.length; i++){
+        if (kytu === mang[i]){
+            count++;
+        }
+    }if (count >0){
+        return count;
+       }
+    return -1;
+   }
+   let mang = ['a','b','c','d','e','f','g','h','j','k','l','m','n'];
+   let kyTu = prompt("Nhập ký tự vào ");
+   let  kiemTra  = kiemTraKyTu(kyTu, mang)
+   if (kiemTra > 0){
+       console.log("Có ký tự " +kyTu+ " trong mảng này");
+   }else {
+       console.log("Không có ký tự này trong mảng");
+   }
+
+</script>
+</body>
+</html>
