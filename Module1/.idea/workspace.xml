@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f2850a1-436a-4f1c-a755-7eaea2219f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai15_ham2/UngDungQuanLySanPham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai15_ham2/luyen_tap2/Bai6KiemTraSoNguyenDuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai15_ham2/luyen_tap2/Bai7DoiChoHaiSo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai15_ham2/luyen_tap2/Bai8DaoNguocPhanTu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai15_ham2/luyen_tap2/Bai9KiemTraKyTu.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/SuDungTheHtmlCoBan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai15_ham2/luyen_tap1/Bai2TangGiaTri.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai15_ham2/luyen_tap1/Bai2TangGiaTri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai15_ham2/luyen_tap1/Bai3TinhTong.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai15_ham2/luyen_tap1/Bai3TinhTong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai15_ham2/luyen_tap1/Bai5TimSao.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai15_ham2/luyen_tap1/Bai5TimSao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai15_ham2/luyen_tap2/Bai5TraVeSoNguyenNhoNhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai15_ham2/luyen_tap2/Bai5TraVeSoNguyenNhoNhat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai15_ham2/UngDungQuanLySanPham.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai15_ham2/UngDungQuanLySanPham.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
@@ -184,6 +176,8 @@
       <workItem from="1630493853970" duration="1193000" />
       <workItem from="1630495159083" duration="3078000" />
       <workItem from="1630571477374" duration="11304000" />
+      <workItem from="1630583488583" duration="89000" />
+      <workItem from="1630645285504" duration="1464000" />
     </task>
     <servers />
   </component>

@@ -5,36 +5,36 @@
     <title>Title</title>
 </head>
 <body>
-<input type="text" id="nameProduct" placeholder="NewProduct">
-<button onclick="clickProduct()">AddNewProduct</button><br>
+<input type="text" id="newProduct" placeholder="New Product">
+<button onclick="addProduct()">AddProduct</button><br>
 <!--<table border="1">-->
 <!--    <tr>-->
 <!--        <th>Stt</th>-->
-<!--        <th>Name</th>-->
+<!--        <th>ProductName</th>-->
 <!--        <th>Edit</th>-->
 <!--        <th>Delete</th>-->
 <!--    </tr>-->
 <!--    <tr>-->
 <!--        <td>1</td>-->
-<!--        <td>SamSung</td>-->
+<!--        <td>Nokia</td>-->
 <!--        <td></td>-->
 <!--        <td></td>-->
 <!--    </tr>-->
 <!--</table>-->
-<span>Số lượng sản phẩm: </span> <span id="total">
+<span>Display All Product: </span> <span id="total">
 </span>
 <p id="result"></p>
 </body>
 <script>
-    let product = ["SamSung", "Nokia", "xiaomi","Iphone","Cục Gạch"];
-    display();
-    function clickProduct() {
-    let newProduct = document.getElementById("nameProduct").value;
-    if (newProduct == ""){
-        console.log("Bạn Phải nhập sản phẩm")
+    let newProduct = ["Nokia","Iphone","SamSung", "Xiaomi","Bphone"];
+display();
+    function addProduct() {
+    let addProduct = document.getElementById("newProduct").value;
+    if (addProduct === ""){
+        console.log("Bạn cần thêm tên sản phẩm")
     }else {
-        product.push(newProduct);
-        document.getElementById("nameProduct").innerHTML = "";
+        newProduct.push(addProduct);
+        document.getElementById("newProduct").innerHTML = "";
     }
     display();
     }
@@ -42,41 +42,42 @@
     let tableString = '<table border="1">\n' +
         '    <tr>\n' +
         '        <th>Stt</th>\n' +
-        '        <th>Name</th>\n' +
+        '        <th>ProductName</th>\n' +
         '        <th>Edit</th>\n' +
         '        <th>Delete</th>\n' +
         '    </tr>'
-        for (let i =0; i <product.length; i++){
+        for (let i = 0; i < newProduct.length; i++){
             tableString += '<tr>\n' +
                 '        <td>'+(i+1)+'</td>\n' +
-                '        <td>'+product[i]+'</td>\n' +
+                '        <td>'+newProduct[i]+'</td>\n' +
                 '        <td><input type="button" value="Edit" onclick="editProduct('+i+')"></td>\n' +
                 '        <td><input type="button" value="Delete" onclick="deleteProduct('+i+')"></td>\n' +
                 '    </tr>'
         }
-        tableString +='</table>';
+        tableString += '</table>'
         document.getElementById("result").innerHTML = tableString;
-        document.getElementById("total").innerText = product.length;
+        document.getElementById("total").innerHTML = newProduct.length;
     }
     function editProduct(id) {
-    let editProduct = prompt("Nhập tên sản phẩm mới");
-    if (editProduct == ""){
-        console.log("Bạn cần phải nhập tên sản phẩm")
-    }else if (editProduct == null){
-        console.log("Bạn không thay đổi tên sản phẩm")
+    let editProduct = prompt("Nhập sản phẩm mới");
+    if (editProduct === ""){
+        console.log("Bạn hãy đổi tên sản phẩm")
+    }else if (editProduct === null){
+        console.log("Bạn không đổi tên sản phẩm này")
     }else {
-        product[id] = editProduct;
+        newProduct[id] = editProduct;
     }
     display();
     }
     function deleteProduct(id) {
-    let deletePr = confirm("Bạn có muốn xoá sản phẩm hay không: " + product[id]);
-    if (deletePr){
-        product.splice(id,1);
-    }else {
-        console.log("Bạn không xoá");
-    }
-    display();
+        let confi = confirm("Bạn có muốn xoá không: " + newProduct[id]);
+        if (confi){
+            newProduct.splice(id,1);
+            console.log("Bạn xoá thành công");
+        }else {
+            console.log("Bạn không xoá sản phẩm này");
+        }
+        display();
     }
 </script>
 </html>
