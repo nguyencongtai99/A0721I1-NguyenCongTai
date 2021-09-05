@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Rectangle{
+        constructor(dai, rong) {
+            this.chieuDai = dai;
+            this.chieuRong = rong;
+        }
+        getChieuDai(){
+            return this.chieuDai;
+        }
+        getChieuRong(){
+            return this.chieuRong;
+        }
+        getDienThich(){
+            return this.chieuDai * this.chieuRong;
+        }
+        getChuVi(){
+            return (this.chieuDai + this.chieuRong)*2;
+        }
+    }
+
+    let rectangle = new Rectangle(20,10);
+    let chieu_dai = rectangle.getChieuDai();
+    let chieu_rong = rectangle.getChieuRong();
+    let dien_tich = rectangle.getDienThich();
+    let chu_vi = rectangle.getChuVi();
+
+    document.writeln("chiều dai = " +chieu_dai+ "<br> chiều rông = " +chieu_rong);
+    document.writeln("<br> diện tích hình CN là = " + dien_tich+ "<br> Chu vi hình CN là = " + chu_vi)
+
+   document.writeln("<br><canvas id=\"canvasId\" width=chieu_dai height=chieu_rong style=\"border: 1px solid blue;\"></canvas>" );
+    let ctx = document.getElementById("canvasId").getContext("2d");
+</script>
+</body>
+</html>

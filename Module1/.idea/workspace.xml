@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f2850a1-436a-4f1c-a755-7eaea2219f48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Bai_tap/XayDungMoTaHinhChuNhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Bai_tap/XayDungMoTaTemperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Thuc_hanh/FunnyCircles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Thuc_hanh/XayDungLopDate.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/SuDungTheHtmlCoBan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai15_ham2/UngDungQuanLySanPham.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai15_ham2/UngDungQuanLySanPham.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
@@ -178,6 +181,8 @@
       <workItem from="1630571477374" duration="11304000" />
       <workItem from="1630583488583" duration="89000" />
       <workItem from="1630645285504" duration="1464000" />
+      <workItem from="1630666330417" duration="7786000" />
+      <workItem from="1630832447302" duration="6925000" />
     </task>
     <servers />
   </component>
