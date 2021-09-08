@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+class Mobile{
+    constructor() {
+        this.pin = 100;
+        this.status = true;
+        this.memoryDraft = [];
+        this.memorySend = [];
+        this.memoryInput = [];
+    }
+    getStatus(){
+        if (this.status === true){
+            alert("đã bật");
+        }else {
+            alert("đã tắt")
+        }
+    }
+    turnOnOff(){
+       this.status =! this.status;
+    }
+    charge(){
+        this.pin = 100;
+    }
+    makeDraft(string){
+        this.memoryDraft.push(string);
+    }
+    sendMessage(mobile){
+        mobile.receiveMessages(this.memoryDraft);
+        this.memorySend.push(this.memoryDraft);
+        this.memoryDraft =[];
+    }
+    receiveMessages(message){
+        this.memoryInput.push(message);
+    }
+    HienThiTinNhanDen(){
+        console.log(this.memoryInput);
+    }
+    hienthiTinDaGui(){
+        for (let string of this.memoryInput){
+            console.log(this.memorySend);
+        }
+    }
+}
+
+let samSung = new Mobile();
+let iphone = new Mobile();
+samSung.makeDraft("xin chào Ip phone");
+samSung.sendMessage("Gửi tin");
+iphone.receiveMessages()
+</script>
+</body>
+</html>

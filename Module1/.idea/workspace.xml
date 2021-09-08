@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f2850a1-436a-4f1c-a755-7eaea2219f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Bai_tap/XayDungMoTaHinhChuNhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Bai_tap/XayDungMoTaTemperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Thuc_hanh/FunnyCircles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Thuc_hanh/XayDungLopDate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai17_lap_trinh_doi_tuong2/AdamEva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai17_lap_trinh_doi_tuong2/GameDiChuyenDoiTuong.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/SuDungTheHtmlCoBan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Bai_tap/XayDungMoTaTemperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Bai_tap/XayDungMoTaTemperature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Thuc_hanh/FunnyCircles.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Bai_tap/XayDungMoTaDienThoai.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
@@ -182,7 +182,12 @@
       <workItem from="1630583488583" duration="89000" />
       <workItem from="1630645285504" duration="1464000" />
       <workItem from="1630666330417" duration="7786000" />
-      <workItem from="1630832447302" duration="6925000" />
+      <workItem from="1630832447302" duration="10004000" />
+      <workItem from="1630915745840" duration="1621000" />
+      <workItem from="1630924984452" duration="11976000" />
+      <workItem from="1630938717377" duration="3000" />
+      <workItem from="1631078641889" duration="445000" />
+      <workItem from="1631079113262" duration="4579000" />
     </task>
     <servers />
   </component>
@@ -286,9 +291,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="811" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1629114757976" />
-    <state x="142" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1629876180322">
+    <state x="142" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1630935035322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="142" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1629876180322" />
+    <state x="142" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1630935035322" />
   </component>
 </project>
