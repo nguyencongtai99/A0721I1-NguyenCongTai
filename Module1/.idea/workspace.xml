@@ -20,12 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f2850a1-436a-4f1c-a755-7eaea2219f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai17_lap_trinh_doi_tuong2/AdamEva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai17_lap_trinh_doi_tuong2/GameDiChuyenDoiTuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/TinhThueThuNhap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/VeHinhChuNhatRong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/VeTamGiacCan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/VeTamGiacCanRong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy/VeTamGiacVuongCanRong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai17_lap_trinh_doi_tuong2/MeoBatChuot.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/SuDungTheHtmlCoBan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Bai_tap/XayDungMoTaTemperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Bai_tap/XayDungMoTaTemperature.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Thuc_hanh/FunnyCircles.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai16_lap_trinh_doi_tuong1/Bai_tap/XayDungMoTaDienThoai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai17_lap_trinh_doi_tuong2/AdamEva.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai17_lap_trinh_doi_tuong2/AdamEva.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai4_git_and_ html/thuc hanh/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
@@ -187,7 +191,12 @@
       <workItem from="1630924984452" duration="11976000" />
       <workItem from="1630938717377" duration="3000" />
       <workItem from="1631078641889" duration="445000" />
-      <workItem from="1631079113262" duration="4579000" />
+      <workItem from="1631079113262" duration="5281000" />
+      <workItem from="1631097873582" duration="9723000" />
+      <workItem from="1631156554350" duration="1313000" />
+      <workItem from="1631237884117" duration="6012000" />
+      <workItem from="1631248102823" duration="3764000" />
+      <workItem from="1631251933963" duration="3179000" />
     </task>
     <servers />
   </component>

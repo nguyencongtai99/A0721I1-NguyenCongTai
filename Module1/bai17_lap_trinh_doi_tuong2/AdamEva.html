@@ -16,7 +16,7 @@
         isEmpty(){
             if (this.weight ===0){
                 return true;
-            }else{
+            }else {
                 return false;
             }
         }
@@ -24,9 +24,10 @@
             return this.weight;
         }
     }
+
     class Human{
         constructor(name,gender,weight) {
-            this.name  = name ;
+            this.name = name;
             this.gender = gender;
             this.weight = weight;
         }
@@ -37,25 +38,25 @@
                 return false;
             }
         }
-        setGender(){
-            this.gender = gender;
+        setGender(gender){
+            this.gender =gender;
         }
-        setName(){
+        setName(name){
             this.name = name;
         }
-        setWeight(){
+        setWeight(weight){
             this.weight = weight;
         }
-        getName(name){
+        getName(){
             return this.name;
         }
-        getWeight(weight){
-            return this.weight
+        getWeight(){
+            return this.weight;
         }
         checkApple(apple){
             if (apple.isEmpty()){
-                alert("táo hêt rồi nha")
-                return false;
+                alert("Táo hết nha");
+                return false
             }else {
                 alert("táo còn nha")
                 return true;
@@ -63,7 +64,7 @@
         }
         eatApple(apple){
             if (this.checkApple(apple)){
-                this.weight++
+                this.weight++;
                 apple.decrease();
             }
         }
@@ -74,15 +75,15 @@
 
     let apple = new Apple();
     let adam = new Human("Adam",true,55)
-    let eva =new Human("Eva",false,45);
-    eva.say("Adam ơi")
-    adam.say("ơi mình đây Eva");
-    eva.say("ăn táo không, táo ngon lắm ")
-    adam.say("ô cê để tới ăn thử xem sao")
-    adam.eatApple(apple);
-    console.log(eva.getWeight())
+    let eva = new Human("Eva",false,45)
+    eva.say("Hello Adam, how do you feel to day")
+    adam.say("i'm Good, thanks you")
+    eva.say("Adam let eat Apple");
+    adam.say("Ok let me eat Apple")
+    adam.eatApple(apple)
     console.log(adam.getWeight())
-    console.log(apple.getWeight());
+    console.log(eva.getWeight())
+    console.log(apple.getWeight())
 </script>
 
 </body>

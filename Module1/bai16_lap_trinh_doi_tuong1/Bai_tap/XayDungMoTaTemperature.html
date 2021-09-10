@@ -6,29 +6,29 @@
 </head>
 <body>
 <script>
-   //  class Temperature{
-   //      constructor(C) {
-   //          this.doC = C;
-   //      }
-   //      getDoC(){
-   //          return this.doC;
-   //      }
-   //      getConvertCtoF(){
-   //          return (this.doC*1.8) + 32;
-   //      }
-   //      getConvertCtoK(){
-   //          return this.doC + 273.15
-   //      }
-   //  }
-   // let nhietdo = parseInt(prompt("Nhập nhiệt độ"));
-   //  let temperature = new Temperature(nhietdo);
-   //  let C = temperature.getDoC();
-   //  let F = temperature.getConvertCtoF();
-   //  let K = temperature.getConvertCtoK();
-   //
-   //  document.writeln("nhiệt độ C là = " + C + "<br>");
-   //  document.writeln("Nhiệt độ C sang F là  = " + F + "<br>" );
-   //  document.writeln("Nhiệt độ C sang K là  = " + K + "<br>");
+    class Temperature{
+        constructor(C) {
+            this.doC = C;
+        }
+        getDoC(){
+            return this.doC;
+        }
+        getConvertCtoF(){
+            return (this.doC*1.8) + 32;
+        }
+        getConvertCtoK(){
+            return this.doC + 273.15
+        }
+    }
+   let nhietdo = parseInt(prompt("Nhập nhiệt độ"));
+    let temperature = new Temperature(nhietdo);
+    let C = temperature.getDoC();
+    let F = temperature.getConvertCtoF();
+    let K = temperature.getConvertCtoK();
+
+    document.writeln("nhiệt độ C là = " + C + "<br>");
+    document.writeln("Nhiệt độ C sang F là  = " + F + "<br>" );
+    document.writeln("Nhiệt độ C sang K là  = " + K + "<br>");
 
 </script>
 </body>
