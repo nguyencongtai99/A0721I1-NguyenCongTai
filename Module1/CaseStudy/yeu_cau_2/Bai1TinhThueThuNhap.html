@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 20% thuế thu nhập nếu lương là 15 triệu.
+    // 10% thuế thu nhập nếu lương từ 7 đến 15 triệu.
+    // 5% thuế thu nhập nếu lương dưới 7 triệu
+    let luong = parseInt(prompt("Nhập số lương của bạn !!"));
+    switch (luong) {
+        case luong:
+            if (luong >=15){
+                sothue = luong*20/100
+                alert("Số thuế bạn phải đóng " + sothue + " triệu");
+                break;
+            }else if (luong <=15 ){
+                sothue = luong*10/100
+                alert("Số thuế bạn phải đóng " + sothue + " triệu");
+                break;
+            }else if (luong <=7){
+                sothue = luong*5/100
+                alert("Số thuế bạn phải đóng " + sothue + " triệu");
+                break;
+            }else {
+                console.log("Bạn chưa nhập số lương, bạn phải nhập lương vào nhé!!!")
+                break;
+            }
+    }
+</script>
+</body>
+</html>

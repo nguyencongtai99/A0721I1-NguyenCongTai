@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let number = prompt("nhập số");
+let printText = ['không','một','hai','ba','bốn','năm','sáu','bảy','tám','chín','mười'];
+let result = "";
+for (let i = 0 ; i< number.length; i++){
+    for (let j = 0; j < printText.length; j++){
+        if (parseInt(number[i]) === j){
+            result += printText[j] + "";
+        }
+    }
+}
+alert( result)
+
+
+    // let number = prompt(" nhập số");
+    // let i = 0;
+    // while (i < number){
+    //     switch (number[i]) {
+    //         case '0':
+    //             alert("Không");
+    //             break;
+    //         case '1':
+    //             alert("một");
+    //             break;
+    //         case '2':
+    //             alert("Hai");
+    //             break;
+    //         case '3':
+    //             alert("Ba");
+    //             break;
+    //         case '4':
+    //             alert("Bốn");
+    //             break;
+    //         case '5':
+    //             alert("Năm");
+    //             break;
+    //         case '6':
+    //             alert("Sáu");
+    //             break;
+    //         case '7':
+    //             alert("Bảy");
+    //             break;
+    //         case '8':
+    //             alert("Tám");
+    //             break;
+    //         case '9':
+    //             alert("Chín");
+    //             break;
+    //         case '10':
+    //             alert("Mười");
+    //             break;
+    //
+    //     }
+    //     i++;
+    // }
+</script>
+</body>
+</html>

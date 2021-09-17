@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let kytu = prompt("nhập");
+let mang = []
+mang.push(kytu[0]);
+for (let i = 0 ; i < kytu.length; i++){
+    let flag = false;
+    for (let j = 0; j < mang.length; j++){
+        if (kytu[i] === mang[j]){
+            flag = true;
+        }
+    }if (!flag){
+        mang.push(kytu[i]);
+    }
+}
+document.writeln("Ký tự xuất hiện " + mang);
+</script>
+</body>
+</html>

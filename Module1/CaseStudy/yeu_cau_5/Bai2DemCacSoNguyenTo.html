@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isPrime(checknumber) {
+        let count = 0;
+        for (let i = 0; i <=checknumber; i++){
+            if (checknumber%i ===0){
+                count++;
+            }
+        }if (count ===2){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+    function finePrimeNumber(array) {
+    let arr = [];
+    for (let i= 0; i < array.length; i++){
+        for (let j  = 0; j <array[i].length; j++){
+            if (isPrime(array[i][j])){
+                arr.push(array[i][j]);
+            }
+    }
+    }
+    return arr;
+    }
+    let arr1 = [[1,2,3],[4,5,6],[7,8,9],[10,11,12],[13,14,15]]
+    let arr = new finePrimeNumber(arr1);
+    alert(arr)
+</script>
+</body>
+</html>

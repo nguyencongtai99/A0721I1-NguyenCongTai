@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Đồ Uống</title>
+</head>
+<body>
+<h2><span style="color: orange">MENU ĐỒ UỐNG</span></h2>
+<button onclick="menu('cafe')"><span style="color: #d61b06">1 (Cafe)</span></button>
+<button onclick="menu('nước cam')"><span style="color: brown">2 (Nước cam)</span> </button>
+<button onclick="menu('nước ép thơm')"><span style="color: red">3 (Nước ép thơm)</span> </button>
+<button onclick="menu('nước ép cà rốt')"><span style="color: coral">4 (Nước ép cà rốt)</span> </button>
+<button onclick="menu('nước lọc')"><span style="color: olivedrab">5 (Nước lọc)</span> </button>
+<button onclick="menu('nước dừa')"><span style="color: chocolate">6 (Nước dừa)</span> </button>
+<button onclick="menu1('over')"><span style="color: olive">7 (Thoát gọi món)</span> </button><br><br>
+<p id="result"><span style="color: seagreen">=>Tổng tiền :</span> </p>
+
+<script>
+function menu(giaSanPham) {
+    switch (giaSanPham) {
+        case 'cafe':
+            giaSanPham = 15000;
+            break;
+        case 'nước cam':
+            giaSanPham = 20000;
+            break;
+        case 'nước ép thơm':
+        case 'nước ép cà rốt':
+            giaSanPham = 17000
+            break;
+        case 'nước lọc':
+            giaSanPham = 7000;
+            break;
+        case 'nước dừa':
+            giaSanPham = 25000;
+            break;
+    }
+    alert("Đơn giá sản phẩm là " + giaSanPham)
+    let num = parseInt(prompt("Nhập số lượng sản phẩm"));
+        document.getElementById("result").innerHTML = "Tổng tiền : " + num*giaSanPham + " nghìn đồng"
+    }
+    function menu1(stop) {
+        if (stop === 'over'){
+            alert("Thoát oder món");
+        }
+    }
+
+
+
+
+</script>
+</body>
+</html>

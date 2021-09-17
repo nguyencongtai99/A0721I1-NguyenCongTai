@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrA = [1,4,5,6,7,9,8,12];
+    let arrB = [1,2,9,7,11,12,4,5];
+
+    for (let i = 0; i<arrA.length;i++){
+        for (let j = 0; j<arrB.length;j++){
+            if (arrA[i]===arrB[j]){
+                arrB.splice(j,1);
+                arrB.sort();
+            }
+        }
+    }
+document.writeln("missingValue(A, B) = " + arrB);
+</script>
+</body>
+</html>
